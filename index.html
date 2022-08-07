@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fonts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .heading{
+            font-family: 'Dancing Script', cursive;
+            color: crimson;
+        }
+        #first-paragraph, #large-paragraph{
+            text-decoration: underline;
+            word-spacing: 2em;
+            line-height: 30px;
+        }
+        #large-paragraph{
+            font-family: 'Raleway', sans-serif;
+            text-transform: lowercase;
+            color:orange;
+            text-align: right;
+        }
+
+        h3:not(.heading){
+            font-family: 'Indie Flower', cursive;
+            text-decoration: line-through;
+        }
+        #large-paragraph~p{
+            font-style: italic;
+            font-size: 22px;
+            text-align: center;
+        }
+        #first-paragraph{
+            font-weight: bold;
+        }
+        h3:first-child{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        #large-paragraph~h3{
+            letter-spacing: 10px;
+        }
+    
+    </style>
+</head>
+<body>
+    <h3 class="heading">Heading 1</h3>
+    <p class="paragraph" id="first-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero perspiciatis nemo laborum, ducimus cupiditate rerum! Iusto commodi asperiores, blanditiis possimus tempora quis impedit perferendis quam doloremque dolorem ducimus accusamus fugit!</p>
+
+    <h3>Heading2</h3>
+    <p class="paragraph" id="large-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero perspiciatis nemo laborum, ducimus cupiditate rerum! Iusto commodi asperiores, blanditiis possimus tempora quis impedit perferendis quam doloremque dolorem ducimus accusamus fugit!</p>
+
+    <h3 class="heading">Heading 3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus eius voluptatum aspernatur quibusdam expedita unde aliquam repudiandae, pariatur dicta id, tempora dolore explicabo corrupti! Delectus maiores ducimus tempora odio.</p>
+
+</body>
+</html>
