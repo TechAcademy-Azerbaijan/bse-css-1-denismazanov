@@ -41,10 +41,40 @@
         #large-paragraph~h3{
             letter-spacing: 10px;
         }
+        hr{
+            border: 2px solid black;
+        }
+
+
+        #first-block{
+            background-color: lightblue;
+            width: 100%;
+            height: 50px;
+            background-image: url("images/image-1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #second-block{
+            background-color: darksalmon;
+            width: 100%;
+            height: 60px;
+            background-image: url("images/image-2.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #third-block{
+            background-color: darkseagreen;
+            width: 100%;
+            height: 70px;
+            background-image: url("images/image-3.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
     
     </style>
 </head>
 <body>
+    <section>
     <h3 class="heading">Heading 1</h3>
     <p class="paragraph" id="first-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero perspiciatis nemo laborum, ducimus cupiditate rerum! Iusto commodi asperiores, blanditiis possimus tempora quis impedit perferendis quam doloremque dolorem ducimus accusamus fugit!</p>
 
@@ -52,7 +82,20 @@
     <p class="paragraph" id="large-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero perspiciatis nemo laborum, ducimus cupiditate rerum! Iusto commodi asperiores, blanditiis possimus tempora quis impedit perferendis quam doloremque dolorem ducimus accusamus fugit!</p>
 
     <h3 class="heading">Heading 3</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus eius voluptatum aspernatur quibusdam expedita unde aliquam repudiandae, pariatur dicta id, tempora dolore explicabo corrupti! Delectus maiores ducimus tempora odio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus eius voluptatum aspernatur quibusdam expedita unde aliquam repudiandae, pariatur dicta id, tempora dolore explicabo corrupti! Delectus maiores ducimus tempora odio.</p><hr>
+    </section>
 
+    <section>
+        <div id="first-block">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, saepe? Laborum, blanditiis facere! Esse non dicta ipsum dolores illo nihil iure ipsa amet culpa magni distinctio quod qui, est animi.</p>
+        </div>
+        <div id="second-block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas dolores dicta saepe fugiat? Deleniti dolorem culpa repudiandae. Mollitia reprehenderit tenetur reiciendis enim officia voluptatibus animi, autem dolore impedit tempora.</p>
+        </div>
+        <div id="third-block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium minima, dolores repellendus itaque officiis fugit quos iusto consequatur quia aliquid? Suscipit ducimus earum aliquid adipisci vero. Atque, quisquam nisi.</p>
+        </div>        
+    
+    </section>
 </body>
 </html>
